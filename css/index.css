@@ -180,6 +180,7 @@ nav ul li {
 }
 nav ul a {
   text-decoration: none;
+  color: black;
 }
 nav ul a:visited {
   color: black;
@@ -250,4 +251,15 @@ header h1 {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  border: 1px solid black;
+  border-radius: 1.5rem;
+  max-width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #008080;
+  text-align: center;
 }
